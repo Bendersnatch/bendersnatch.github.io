@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,28 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/mediaqueries.css">
 </head>
+
 <body>
-    <nav class="navbar">
+    <nav class="desktop-nav">
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Progetti</a></li>
             <li><a href="#contact">Contatti</a></li>
         </ul>
+    </nav>
+    <nav class="hamburger-nav">
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Progetti</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contatti</a></li>
+            </div>
+        </div>
     </nav>
     <main>
         <section id="about">
@@ -35,4 +51,5 @@
 
     <script src="/assets/js/script.js"></script>
 </body>
+
 </html>
