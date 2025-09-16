@@ -3,7 +3,7 @@
     .desktop-nav {
         display: none;
     }
-    #hamburger-nav {
+    .hamburger-nav {
         display: flex;
     }
 
