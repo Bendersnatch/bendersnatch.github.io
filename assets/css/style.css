@@ -162,4 +162,25 @@ a:hover {
     -o-transform:none;
 }
 
+/* sections*/
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin : 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
 
