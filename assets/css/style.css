@@ -165,8 +165,8 @@ a:hover {
 /* sections*/
 
 section {
-    padding-top: 4vh;
-    height: 96vh;
+    padding-top: 3vh;
+    height: 90vh;
     margin : 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -180,13 +180,13 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 70vh;  
 }
 
 .section-pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     margin: auto 0;
 }
 
@@ -197,27 +197,62 @@ section {
 
 .section-text p {
     font-weight: 600;
-}
-
-.section-text-p1 {
-    text-align: center;
+    text-align: right;
 }
 
 .section-text-p1 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
+    text-align: right;
 }
 
 .title {
     font-size: 3rem;
-    text-align: center;
+    text-align: right;
 }
 
 #socials-container {
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    margin-top: 1rem;
     gap: 2rem;
-    justify-content: center;
+}
+
+/*icons*/
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+/* buttons */
+
+.btn-container {
+    display: flex;
+    justify-content:flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.btn-color-1, .btn-color-2 {
+    background-color: #FBBF24;
+    border: #F97316  0.1rem solid;
 }
 
 
