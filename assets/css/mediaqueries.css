@@ -1,15 +1,40 @@
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     .desktop-nav {
         display: none;
     }
     .hamburger-nav {
         display: flex;
     }
+    #hero-profile {
+        flex-direction: column; /* immagine sopra, contenuto sotto */
+        text-align: center;
+        height: auto;
+        margin: 2rem;
+        gap: 2rem;
+    }
 
+    .section-pic-container {
+        height: 200px;   /* immagine più piccola */
+        width: 200px;
+        margin-bottom: 1.5rem; /* distacco dal testo */
+        justify-content: center;
+    }
+
+    .section-content {
+        align-items: center; /* centra tutto su mobile */
+    }
+
+    .btn-container {
+        justify-content: center; /* bottoni centrati */
+    }
+
+    #socials-container {
+        justify-content: center; /* icone social centrate */
+    }
 }
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 768px) {
     .hamburger-nav {
         display: none;
     }

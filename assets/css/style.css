@@ -1,258 +1,275 @@
 /* font */
 
-@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 p {
-    color: #1F2937;
+  color: #1f2937;
 }
 
-a, .btn {
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
+a,
+.btn {
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
 
 /* desktop navbar */
 
-nav, .nav-links {
-    display: flex;
+nav,
+.nav-links {
+  display: flex;
 }
 
 nav {
-    justify-content: space-around;
-    align-items: center;
-    height: 17vh;
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
 }
 
 .nav-links {
-    list-style: none;
-    gap: 2rem;
-    justify-content: space-around;
-    font-size: 1.5rem;
+  list-style: none;
+  gap: 2rem;
+  justify-content: space-around;
+  font-size: 1.5rem;
 }
 
 a {
-    text-decoration: none;
-    color: #1E3A8A;
+  text-decoration: none;
+  color: #1e3a8a;
 }
 
 a:hover {
-    color: #3B82F6;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
+  color: #3b82f6;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
 }
 
 /* hamburger menu */
 
 #hamburger-nav {
-    display: none;
+  display: none;
 }
 
 .hamburger-menu {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .hamburger-icon {
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    justify-content: space-between;
-    width: 30px;
-    height: 24px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: space-between;
+  width: 30px;
+  height: 24px;
 }
 
 .hamburger-icon span {
-    width: 100%;
-    height: 2px;
-    background-color: #1E3A8A;
-    transition: all 0.3 ease-in-out;
-    -webkit-transition: all 0.3 ease-in-out;
-    -moz-transition: all 0.3 ease-in-out;
-    -ms-transition: all 0.3 ease-in-out;
-    -o-transition: all 0.3 ease-in-out;
+  width: 100%;
+  height: 2px;
+  background-color: #1e3a8a;
+  transition: all 0.3 ease-in-out;
+  -webkit-transition: all 0.3 ease-in-out;
+  -moz-transition: all 0.3 ease-in-out;
+  -ms-transition: all 0.3 ease-in-out;
+  -o-transition: all 0.3 ease-in-out;
 }
 
 .menu-links {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background-color: white;
-    width: fit-content;
-    max-height: 0;
-    overflow: hidden;
-    -webkit-transition: all;
-    -moz-transition: all;
-    -ms-transition: all;
-    -o-transition: all;
-    transition: all 0.3 ease-in-out;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  width: fit-content;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: all;
+  -moz-transition: all;
+  -ms-transition: all;
+  -o-transition: all;
+  transition: all 0.3 ease-in-out;
 }
 
 .menu-links a {
-    display: block;
-    padding: 10px;
-    text-align: center;
-    font-size: 1.5rem;
-    color: #1F2937;
-    text-decoration: none;
-    transition: all 0.3 ease-in-out;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #1f2937;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
 }
 
 .menu-links li {
-    list-style: none;
+  list-style: none;
 }
 
 .menu-links.open {
-    max-height: 300px;
+  max-height: 300px;
 }
 
 .hamburger-icon.open span:first-child {
-    -webkit-transform: rotate(45deg) translate(10px, 5px);
-    -moz-transform: rotate(45deg) translate(10px, 5px);
-    -ms-transform: rotate(45deg) translate(10px, 5px);
-    -o-transform: rotate(45deg) translate(10px, 5px);
-    transform: rotate(45deg) translate(10px, 5px);
+  -webkit-transform: rotate(45deg) translate(10px, 5px);
+  -moz-transform: rotate(45deg) translate(10px, 5px);
+  -ms-transform: rotate(45deg) translate(10px, 5px);
+  -o-transform: rotate(45deg) translate(10px, 5px);
+  transform: rotate(45deg) translate(10px, 5px);
 }
 
 .hamburger-icon.open span:nth-child(2) {
-    opacity: 0;
+  opacity: 0;
 }
 
 .hamburger-icon.open span:last-child {
-    -webkit-transform: rotate(-45deg) translate(10px, -5px);
-    -moz-transform: rotate(-45deg) translate(10px, -5px);
-    -ms-transform: rotate(-45deg) translate(10px, -5px);
-    -o-transform: rotate(-45deg) translate(10px, -5px);
-    transform: rotate(-45deg) translate(10px, -5px);
+  -webkit-transform: rotate(-45deg) translate(10px, -5px);
+  -moz-transform: rotate(-45deg) translate(10px, -5px);
+  -ms-transform: rotate(-45deg) translate(10px, -5px);
+  -o-transform: rotate(-45deg) translate(10px, -5px);
+  transform: rotate(-45deg) translate(10px, -5px);
 }
 
 .hamburger-icon span:first-child {
-    transform:none;
-    -webkit-transform:none;
-    -moz-transform:none;
-    -ms-transform:none;
-    -o-transform:none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
 }
 
 .hamburger-icon span:first-child {
-    opacity: 1;
+  opacity: 1;
 }
 
 .hamburger-icon span:first-child {
-    transform:none;
-    -webkit-transform:none;
-    -moz-transform:none;
-    -ms-transform:none;
-    -o-transform:none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
 }
 
 /* sections*/
 
 section {
-    padding-top: 3vh;
-    height: 90vh;
-    margin : 0 10rem;
-    box-sizing: border-box;
-    min-height: fit-content;
+  padding-top: 3vh;
+  height: 90vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
 }
 
 .section-container {
-    display: flex;
+  display: flex;
 }
 
-#profile {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    height: 70vh;  
+#hero-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  height: 70vh;
+  margin: 0 10rem;
 }
 
 .section-pic-container {
-    display: flex;
-    height: 300px;
-    width: 300px;
-    margin: auto 0;
+  display: flex;
+  height: 300px;
+  width: 300px;
+  margin: auto 0;
+  min-width: fit-content;
+}
+
+.section-pic-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .section-text {
-    align-self: center;
-    text-align: center;
+  align-self: center;
+  text-align: center;
 }
 
 .section-text p {
-    font-weight: 600;
-    text-align: right;
+  font-weight: 600;
+  text-align: right;
 }
 
 .section-text-p1 {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
-    text-align: right;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  text-align: right;
 }
 
 .title {
-    font-size: 3rem;
-    text-align: right;
+  font-size: 3rem;
+  text-align: right;
 }
 
 #socials-container {
-    display: flex;
-    justify-content: right;
-    margin-top: 1rem;
-    gap: 2rem;
+  display: flex;
+  justify-content: right;
+  margin-top: 1rem;
+  gap: 2rem;
 }
 
 /*icons*/
 
 .icon {
-    cursor: pointer;
-    height: 2rem;
+  cursor: pointer;
+  height: 2rem;
 }
 
 /* buttons */
 
 .btn-container {
-    display: flex;
-    justify-content:flex-end;
-    gap: 1rem;
-    margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .btn {
-    font-weight: 600;
-    padding: 1rem;
-    width: 8rem;
-    border-radius: 2rem;
-    transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
+  font-weight: 600;
+  padding: 1rem;
+  width: 8rem;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  border-radius: 2rem;
+  transition: all 300ms ease;
 }
 
-.btn-color-1, .btn-color-2 {
-    background-color: #FBBF24;
-    border: #F97316  0.1rem solid;
+.btn-color-1,
+.btn-color-2 {
+  background-color: #fbbf24;
+  border: black 0.1rem solid;
 }
 
-
+.btn-color-1:hover,
+.btn-color-2:hover {
+  background-color: #f97316;
+  border: black 0.1rem solid;
+  cursor: pointer;
+}
