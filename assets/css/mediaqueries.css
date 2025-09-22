@@ -7,7 +7,7 @@
         display: flex;
     }
     #hero-profile {
-        flex-direction: column; /* immagine sopra, contenuto sotto */
+        flex-direction: column; 
         text-align: center;
         height: auto;
         margin: 2rem;
@@ -15,22 +15,25 @@
     }
 
     .section-pic-container {
-        height: 200px;   /* immagine più piccola */
+        height: 200px;   
         width: 200px;
-        margin-bottom: 1.5rem; /* distacco dal testo */
+        margin-bottom: 1.5rem; 
         justify-content: center;
     }
 
     .section-content {
-        align-items: center; /* centra tutto su mobile */
+        align-items: center;
     }
 
     .btn-container {
-        justify-content: center; /* bottoni centrati */
+        justify-content: center;
     }
 
     #socials-container {
-        justify-content: center; /* icone social centrate */
+        justify-content: center;
+    }
+    .arrow-down {
+    width: 35px;
     }
 }
 

@@ -83,11 +83,11 @@ a:hover {
   width: 100%;
   height: 2px;
   background-color: #1e3a8a;
-  transition: all 0.3 ease-in-out;
   -webkit-transition: all 0.3 ease-in-out;
   -moz-transition: all 0.3 ease-in-out;
   -ms-transition: all 0.3 ease-in-out;
   -o-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
 }
 
 .menu-links {
@@ -209,12 +209,15 @@ section {
 .section-text p {
   font-weight: 600;
   text-align: right;
+  color: #1f2937;
 }
 
-.section-text-p1 {
+.section-text-p1,
+.section-text-p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
   text-align: right;
+  color: #1f2937;
 }
 
 .title {
@@ -271,5 +274,26 @@ section {
 .btn-color-2:hover {
   background-color: #f97316;
   border: black 0.1rem solid;
+  cursor: pointer;
+}
+
+/*about section*/
+#about {
+  position: relative;
+}
+
+.title-about {
+  font-size: 3rem;
+  text-align: left;
+}
+
+.arrow-down {
+  position: absolute;
+  right: -5rem;
+  bottom: 2rem;
+  width: 50px;
+  height: auto;
+  display: block;
+  margin: 2rem auto 0 auto;
   cursor: pointer;
 }
