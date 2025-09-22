@@ -297,3 +297,10 @@ section {
   margin: 2rem auto 0 auto;
   cursor: pointer;
 }
+
+/*skills section*/
+.section-text-p1-skills, .title-skills {
+  text-align: center;
+  font-size: 3rem;
+
+}
