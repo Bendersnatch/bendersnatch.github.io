@@ -288,7 +288,7 @@ section {
 .title-about {
   font-size: 3rem;
   text-align: left;
-  color: #1F2937;
+  color: #1E3A8A;
 }
 
 .arrow-down {
@@ -306,7 +306,7 @@ section {
 .section-text-p1-skills, .title-skills {
   text-align: center;
   font-size: 3rem;
-
+  color: #1E3A8A;
 }
 
 #skills {
@@ -314,6 +314,7 @@ section {
 }
 
 .skills-subtitle {
+  text-align: center;
   color: #1f2937;
   font-weight: 600;
   font-size: 1.6rem;
@@ -332,6 +333,12 @@ section {
 .details-containers {
   flex: 1;
   min-width: 250px;
+  border: #1E3A8A 0.1rem solid;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  border-radius: 2rem;
 }
 
 .article-container {
@@ -339,4 +346,12 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
 }
