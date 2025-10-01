@@ -9,9 +9,8 @@
 
 body {
   font-family: "Ubuntu", sans-serif;
-  background-color: #F9FAFB;
+  background-color: #F3ECE0
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -38,6 +37,10 @@ a,
 nav,
 .nav-links {
   display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #E0E7F3;
+  z-index: 1;
 }
 
 nav {

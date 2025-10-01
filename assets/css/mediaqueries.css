@@ -5,6 +5,9 @@
     }
     .hamburger-nav {
         display: flex;
+        justify-content: flex-end;
+        padding: 15px 25px;
+        position: relative;
     }
     #hero-profile {
         flex-direction: column; 
@@ -45,11 +48,14 @@
 
 /*cv page media queries*/
 @media screen and (max-width: 768px) {
-    .desktop-nav-cv {
+    .desktop-nav-cv{
         display: none;
     }
-    .hamburger-nav-cv {
-        display: flex;
+    .hamburger-nav {
+        display:flex;
+        justify-content: flex-end;
+        padding: 15px 25px;
+        position: relative;
     }
     .section-pic-container {
         height: 200px;   
