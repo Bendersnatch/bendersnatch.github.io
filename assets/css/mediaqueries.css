@@ -42,3 +42,31 @@
         display: none;
     }
 }
+
+/*cv page media queries*/
+@media screen and (max-width: 768px) {
+    .desktop-nav-cv {
+        display: none;
+    }
+    .hamburger-nav-cv {
+        display: flex;
+    }
+    .section-pic-container {
+        height: 200px;   
+        width: 200px;
+        margin-bottom: 1.5rem; 
+        justify-content: center;
+    }
+    .section-content {
+        align-items: center;
+    }
+    .cv-columns {
+    flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hamburger-nav-cv {
+        display: none;
+    }
+}
