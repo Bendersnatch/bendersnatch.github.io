@@ -1,16 +1,17 @@
-
 @media screen and (max-width: 768px) {
     .desktop-nav {
         display: none;
     }
+
     .hamburger-nav {
         display: flex;
         justify-content: flex-end;
         padding: 15px 25px;
         position: relative;
     }
+
     #hero-profile {
-        flex-direction: column; 
+        flex-direction: column;
         text-align: center;
         height: auto;
         margin: 2rem;
@@ -18,9 +19,9 @@
     }
 
     .section-pic-container {
-        height: 200px;   
+        height: 200px;
         width: 200px;
-        margin-bottom: 1.5rem; 
+        margin-bottom: 1.5rem;
         justify-content: center;
     }
 
@@ -35,8 +36,9 @@
     #socials-container {
         justify-content: center;
     }
+
     .arrow-down {
-    width: 35px;
+        width: 35px;
     }
 }
 
@@ -48,26 +50,30 @@
 
 /*cv page media queries*/
 @media screen and (max-width: 768px) {
-    .desktop-nav-cv{
+    .desktop-nav-cv {
         display: none;
     }
+
     .hamburger-nav {
-        display:flex;
+        display: flex;
         justify-content: flex-end;
         padding: 15px 25px;
         position: relative;
     }
+
     .section-pic-container {
-        height: 200px;   
+        height: 200px;
         width: 200px;
-        margin-bottom: 1.5rem; 
+        margin-bottom: 1.5rem;
         justify-content: center;
     }
+
     .section-content {
         align-items: center;
     }
+
     .cv-columns {
-    flex-direction: column;
+        flex-direction: column;
     }
 }
 
