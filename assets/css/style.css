@@ -9,8 +9,10 @@
 
 body {
   font-family: "Ubuntu", sans-serif;
-  background-color: #F3ECE0
+  background-color: #F3ECE0;
+  width: 100%;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -295,6 +297,7 @@ section {
 }
 
 /*about section*/
+
 #about {
   position: relative;
 }
@@ -317,6 +320,7 @@ section {
 }
 
 /*skills section*/
+
 .section-text-p1-skills, .title-skills {
   text-align: center;
   font-size: 3rem;
@@ -370,8 +374,26 @@ article {
   gap: 0.5rem;
 }
 
+.footer {
+  background-color: #1e3a8a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer-signature {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.3rem;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+
 
 /*cv section*/
+
 @import url("https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 * {

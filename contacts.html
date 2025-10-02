@@ -1,31 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Contact Me</h1>
-    </header>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/mediaqueries.css" />
+    <title>Contatti - Alex Bazhenov</title>
+  </head>
+  <body class="contacts-page">
+    <nav class="desktop-nav">
+      <ul class="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="cv.html">Curriculum</a></li>
+        <li><a href="contacts.html" class="active">Contatti</a></li>
+      </ul>
+    </nav>
+
+    <nav class="hamburger-nav">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="cv.html" onclick="toggleMenu()">Curriculum</a></li>
+          <li>
+            <a href="contacts.html" onclick="toggleMenu()" class="active">Contatti</a>
+          </li>
+        </div>
+      </div>
+    </nav>
+
     <main>
-        <section id="contact-form">
-            <h2>Get in Touch</h2>
-            <form action="submit_form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
+      <section>
+        <div class="hero-contacts">
+          <h1>I miei contatti</h1>
+        </div>
+
+        <div class="contacts-icons">
+          <a
+            href="https://www.linkedin.com/in/oleksandr-bazhenov-1814b414b/"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="assets/icons/Linkedin.svg" alt="Linkedin icon" /> LinkedIn
+          </a>
+          <a
+            href="https://github.com/Bendersnatch"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="assets/icons/Github.svg" alt="Github icon" /> GitHub
+          </a>
+        </div>
+
+        <div class="contact-form">
+          <form>
+            <div class="input-group">
+              <input type="text" id="contact-name" required />
+              <label for="contact-name">Nome:</label>
+            </div>
+            <div class="input-group">
+              <input type="text" id="contact-number" required />
+              <label for="contact-number">Numero:</label>
+            </div>
+            <div class="input-group">
+              <input type="email" id="contact-email" required />
+              <label for="contact-email">E-mail:</label>
+            </div>
+            <div class="input-group">
+              <textarea id="contact-message" rows="8" required></textarea>
+              <label for="contact-message">Messaggio:</label>
+            </div>
+            <button type="submit" class="submit-button">INVIA</button>
+          </form>
+        </div>
+      </section>
     </main>
-    <footer>
-        <p>&copy; 2025 My Portfolio</p>
+
+    <footer class="footer">
+      <p class="footer-signature">&copy; 2025 Alex Bazhenov</p>
     </footer>
-</body>
+
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
