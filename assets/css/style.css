@@ -374,6 +374,33 @@ article {
   gap: 0.5rem;
 }
 
+.projects-text-p1 {
+  text-align: center;
+  color: #111827;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.title-projects {
+  text-align: center;
+  font-size: 3rem;
+  color: #6B7280;
+  margin-bottom: 2rem;
+}
+
+.project-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btn-container-projects {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
 .footer {
   background-color: #1e3a8a;
   color: #fff;
@@ -596,6 +623,84 @@ a.cv:hover {
   margin-bottom: 10px;
 }
 
+/* projects section*/
+
+#projects {
+  position: relative;
+}
+
+.color-container{
+  border-color: #6B7280;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.color-container:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  -webkit-transform: translateY(-8px);
+  -moz-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  -o-transform: translateY(-8px);
+}
+
+project-img{
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.project-icon {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.article-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-text-p1 {
+  text-align: center;
+  color: #111827;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.title-projects {
+  text-align: center;
+  font-size: 3rem;
+  color: #6B7280;
+  margin-bottom: 2rem;
+}
+
+.project-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btn-container-projects {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
 
 
 /*contacts page*/
@@ -621,11 +726,16 @@ form {
 input, textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #000;
+  border: 2px solid #000;
   outline: 0;
+  border-radius: 1rem;
   color: #6B7280;
   background: transparent;
   font-size: 15px;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 
 label {
@@ -643,14 +753,19 @@ label {
   transition: 0.2s;
 }
 
-button {
+.submit-btn {
+  width: 100%;
   padding: 10px 0;
   color: #6B7280;
-  outline: none;
   background: transparent;
-  border: 1px solid #000;
-  width: 100%;
+  border: 2px solid #000;
+  outline: 0;
   cursor: pointer;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 
 input:focus ~ label,
@@ -659,4 +774,8 @@ textarea:focus ~ label,
 textarea:valid ~ label {
   top: -35px;
   font-size: 14px;
+}
+
+input:hover, textarea:hover, .submit-btn:hover {
+  background-color: #dddad3;
 }
