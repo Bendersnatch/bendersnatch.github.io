@@ -25,6 +25,13 @@
         justify-content: center;
     }
 
+    .section-pic-cv-container {
+        height: 200px;
+        width: 200px;
+        min-width: -webkit-fill-available;
+        min-width: fit-content;
+    }
+
     .section-content {
         align-items: center;
     }
