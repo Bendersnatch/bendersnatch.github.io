@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -672,6 +673,7 @@ project-img{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
 }
 
 .projects-text-p1 {
@@ -799,6 +801,7 @@ textarea:valid ~ label {
 
 input:hover, textarea:hover, .submit-btn:hover {
   background-color: #dddad3;
+  color: #000;
 }
 
 /*animazioni*/
