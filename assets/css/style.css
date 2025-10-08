@@ -332,6 +332,7 @@ section {
 }
 
 .skills-subtitle {
+  margin-top: 1rem;
   text-align: center;
   color: #111827;
   font-weight: 600;
@@ -450,7 +451,7 @@ p.cv {
   height: 350px;
   width: 300px;
   min-width: -webkit-fill-available;
-  min-width: fit-content;
+  min-width: auto;
 }
 
 /* desktop navbar */
