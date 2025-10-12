@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/sass/style.css" />
-        <link
+    <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="assets/img/favicon/apple-touch-icon.png"
@@ -24,8 +24,33 @@
     <link rel="manifest" href="assets/img/favicon/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#1e3a8a" />
     <meta name="theme-color" content="#1e3a8a" />
-    <title>Contatti - Alex Bazhenov</title>
+    <title>Contattami Alex Bazhenov</title>
+    <meta
+      name="description"
+      content="Contatta Alex Bazhenov per collaborazioni o progetti in Java e Spring Boot."
+    />
+
+    <meta property="og:site_name" content="Alex Bazhenov Portfolio site" />
+    <meta property="og:title" content="Contatta Alex Bazhenov" />
+    <meta
+      property="og:description"
+      content="Hai un progetto o un'opportunità? Scrivimi per collaborare o saperne di più."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="contacts.html" />
+    <meta property="og:image" content="assets/img/preview.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contatta Alex Bazhenov" />
+    <meta
+      name="twitter:description"
+      content="Hai un progetto o un'opportunità? Scrivimi per collaborare o saperne di più."
+    />
+    <meta name="twitter:image" content="assets/img/preview.jpg" />
+
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
   </head>
+
   <body class="contacts-page">
     <nav class="desktop-nav">
       <ul class="nav-links">
@@ -45,41 +70,43 @@
           <li><a href="index.html" onclick="toggleMenu()">About</a></li>
           <li><a href="cv.html" onclick="toggleMenu()">Curriculum</a></li>
           <li>
-            <a href="contacts.html" onclick="toggleMenu()" class="active">Contatti</a>
+            <a href="contacts.html" onclick="toggleMenu()" class="active"
+              >Contatti</a
+            >
           </li>
         </div>
       </div>
     </nav>
-<div class="hero-contacts">
-  <div class="contacts-content">
-    <h1 class="contacts-title">Contattami</h1>
-    <p class="contacts-subtitle">
-      Sto muovendo i primi passi nel mondo dello sviluppo, ma ho tanta voglia di crescere, imparare e contribuire a progetti reali. Se cerchi uno stagista curioso e affidabile, mi piacerebbe parlarne.
-    </p>
+    <div class="hero-contacts">
+      <div class="contacts-content">
+        <h1 class="contacts-title">Contattami</h1>
+        <p class="contacts-subtitle">
+          Sto muovendo i primi passi nel mondo dello sviluppo, ma ho tanta
+          voglia di crescere, imparare e contribuire a progetti reali. Se cerchi
+          uno stagista curioso e affidabile, mi piacerebbe parlarne.
+        </p>
 
-    <form action="https://formspree.io/f/xrbyldrw" method="POST">
-      <div class="input-group">
-        <input type="text" id="name" name="name" required />
-        <label for="name">Nome</label>
+        <form action="https://formspree.io/f/xrbyldrw" method="POST">
+          <div class="input-group">
+            <input type="text" id="name" name="name" required />
+            <label for="name">Nome</label>
+          </div>
+          <div class="input-group">
+            <input type="text" id="number" name="number" required />
+            <label for="number">Numero</label>
+          </div>
+          <div class="input-group">
+            <input type="text" id="email" name="email" required />
+            <label for="email">E-mail</label>
+          </div>
+          <div class="input-group">
+            <textarea id="message" name="message" rows="8" required></textarea>
+            <label for="message">Messaggio</label>
+          </div>
+          <button type="submit" class="submit-btn">Invia</button>
+        </form>
       </div>
-      <div class="input-group">
-        <input type="text" id="number" name="number" required />
-        <label for="number">Numero</label>
-      </div>
-      <div class="input-group">
-        <input type="text" id="email" name="email" required />
-        <label for="email">E-mail</label>
-      </div>
-      <div class="input-group">
-        <textarea id="message" name="message" rows="8" required></textarea>
-        <label for="message">Messaggio</label>
-      </div>
-      <button type="submit" class="submit-btn">Invia</button>
-    </form>
-  </div>
-</div>
-
-
+    </div>
 
     <footer class="footer">
       <p class="footer-signature">&copy; 2025 Alex Bazhenov</p>
