@@ -33,15 +33,3 @@ L’utente può navigare tra le sezioni “Home / Progetti”, “CV”, “Cont
 - Navigazione fluida tra le pagine  
 - Caricamento rapido (nessuna libreria pesante, niente framework front-end complessi)
 
-## Struttura del progetto
-portfolio/
-├── assets/
-│ ├── css/
-│ ├── images/
-│ │ └── preview.jpg ← immagine di anteprima per Open Graph
-│ └── favicon.png
-├── index.html ← Home / pagina principale
-├── cv.html ← Curriculum / informativa personale
-├── contacts.html ← Pagina contatti
-└── (altri file JS o CSS) ← eventuali script / stili extra
-
