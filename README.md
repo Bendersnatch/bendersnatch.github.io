@@ -19,6 +19,7 @@ L’utente può navigare tra le sezioni “Home / Progetti”, “CV”, “Cont
 - JavaScript puro per eventuali interazioni e scroll dinamici  
 - Git & GitHub per versionamento e hosting (GitHub Pages)  
 - Immagini e assets statici (favicon, icone, anteprime)
+- Formspree per la gestione del form di contatto e l’invio di email
 
 ---
 
@@ -29,7 +30,8 @@ L’utente può navigare tra le sezioni “Home / Progetti”, “CV”, “Cont
 - Pagina “CV” con esperienza, istruzione e competenze  
 - Pagina “Contatti” con modulo di contatto o link via email/social  
 - Meta tag Open Graph e Twitter Card per generare una bella anteprima quando si condivide il link (titolo, descrizione, immagine)  
-- Favicon personalizzata  
+- Favicon personalizzata
+- La sezione Contatti è implementata tramite Formspree, un servizio che permette di ricevere messaggi dal modulo di contatto direttamente via email. L’utente può compilare il form e inviare un messaggio che viene recapitato all’indirizzo email associato all’account Formspree.
 - Navigazione fluida tra le pagine  
 - Caricamento rapido (nessuna libreria pesante, niente framework front-end complessi)
 
