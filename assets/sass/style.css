@@ -8,7 +8,7 @@
 
 body {
   font-family: "Ubuntu", sans-serif;
-  background-color: #F3ECE0;
+  background-color: #f3ece0;
   width: 100%;
 }
 
@@ -16,19 +16,22 @@ html {
   scroll-behavior: smooth;
 }
 
-html, body {
+html,
+body {
   box-sizing: border-box;
 }
 
-h2, h3 {
+h2,
+h3 {
   color: #111827;
 }
 
 p {
-  color: #6B7280;
+  color: #6b7280;
 }
 
-a, .btn {
+a,
+.btn {
   transition: all 300ms ease;
 }
 
@@ -49,26 +52,27 @@ nav {
 }
 
 .nav-links a {
-  color: #2563EB;
+  color: #2563eb;
   font-weight: 500;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #1E40AF;
+  color: #1e40af;
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }
 
-.desktop-nav, .desktop-nav-cv {
+.desktop-nav,
+.desktop-nav-cv {
   position: sticky;
   top: 0;
   left: 0;
   width: 100%;
   height: 3rem;
   z-index: 3;
-  background-color: #E0E7F3;
+  background-color: #e0e7f3;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   display: flex;
   justify-content: center;
@@ -83,10 +87,10 @@ nav {
 
 a {
   text-decoration: none;
-  color: #2563EB;
+  color: #2563eb;
 }
 a:hover {
-  color: #1E40AF;
+  color: #1e40af;
   text-decoration: underline;
   text-underline-offset: 1rem;
 }
@@ -98,7 +102,7 @@ a:hover {
   top: 0;
   width: 100%;
   z-index: 4;
-  background-color: #E0E7F3;
+  background-color: #e0e7f3;
   display: none;
   justify-content: space-between;
   align-items: center;
@@ -158,7 +162,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: #E0E7F3;
+  background-color: #e0e7f3;
   width: -moz-fit-content;
   width: fit-content;
   max-height: 0;
@@ -171,13 +175,13 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: #2563EB;
+  color: #2563eb;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
 
 .menu-links a:hover {
-  color: #1E40AF;
+  color: #1e40af;
   text-decoration: underline;
   text-underline-offset: 1rem;
 }
@@ -251,19 +255,20 @@ section {
 .section-text {
   align-self: center;
   text-align: center;
-  color: #6B7280;
+  color: #6b7280;
 }
 .section-text p {
   font-weight: 600;
   text-align: right;
-  color: #6B7280;
+  color: #6b7280;
 }
 
-.section-text-p1, .section-text-p2 {
+.section-text-p1,
+.section-text-p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
   text-align: right;
-  color: #6B7280;
+  color: #6b7280;
 }
 
 .title {
@@ -305,13 +310,15 @@ section {
   transition: all 300ms ease;
 }
 
-.btn-color-1, .btn-color-2 {
+.btn-color-1,
+.btn-color-2 {
   background-color: #fbbf24;
   border: black 0.1rem solid;
 }
 
-.btn-color-1:hover, .btn-color-2:hover {
-  background-color: #F59E0B;
+.btn-color-1:hover,
+.btn-color-2:hover {
+  background-color: #f59e0b;
   border: black 0.1rem solid;
   cursor: pointer;
 }
@@ -324,7 +331,7 @@ section {
 .title-about {
   font-size: 3rem;
   text-align: left;
-  color: #1E3A8A;
+  color: #1e3a8a;
 }
 
 .arrow-down {
@@ -339,10 +346,11 @@ section {
 }
 
 /*skills section */
-.section-text-p1-skills, .title-skills {
+.section-text-p1-skills,
+.title-skills {
   text-align: center;
   font-size: 3rem;
-  color: #1E3A8A;
+  color: #1e3a8a;
 }
 
 #skills {
@@ -370,7 +378,7 @@ section {
 .details-containers {
   flex: 1;
   min-width: 250px;
-  border: #6B7280 0.1rem solid;
+  border: #6b7280 0.1rem solid;
   border-radius: 2rem;
 }
 
@@ -399,7 +407,7 @@ article {
 .title-projects {
   text-align: center;
   font-size: 3rem;
-  color: #6B7280;
+  color: #6b7280;
   margin-bottom: 2rem;
 }
 
@@ -452,19 +460,20 @@ article {
 
 body.cv {
   font-family: "Ubuntu", sans-serif;
-  background-color: #F9FAFB;
+  background-color: #f9fafb;
 }
 
 html.cv {
   scroll-behavior: smooth;
 }
 
-h2.cv, h3.cv {
+h2.cv,
+h3.cv {
   color: #111827;
 }
 
 p.cv {
-  color: #6B7280;
+  color: #6b7280;
 }
 
 .section-pic-cv-container {
@@ -489,7 +498,8 @@ p.cv {
 }
 
 /* desktop navbar */
-nav.cv, .nav-links {
+nav.cv,
+.nav-links {
   display: flex;
 }
 
@@ -508,11 +518,11 @@ nav.cv {
 
 a.cv {
   text-decoration: none;
-  color: #2563EB;
+  color: #2563eb;
 }
 
 a.cv:hover {
-  color: #1E40AF;
+  color: #1e40af;
   text-decoration: underline;
   text-underline-offset: 1rem;
 }
@@ -523,7 +533,7 @@ a.cv:hover {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #E0E7F3;
+  background-color: #e0e7f3;
   z-index: 1000;
   padding: 0.8rem 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -668,7 +678,7 @@ a.cv:hover {
 }
 
 .color-container {
-  border-color: #6B7280;
+  border-color: #6b7280;
   border-radius: 1.5rem;
   padding: 1.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -724,7 +734,7 @@ project-img {
 .title-projects {
   text-align: center;
   font-size: 3rem;
-  color: #6B7280;
+  color: #6b7280;
   margin-bottom: 2rem;
 }
 
@@ -748,7 +758,7 @@ project-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F3ECE0;
+  background-color: #f3ece0;
   padding: 2rem;
   box-sizing: border-box;
 }
@@ -762,13 +772,13 @@ project-img {
 .contacts-title {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #1E3A8A;
+  color: #1e3a8a;
 }
 
 .contacts-subtitle {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  color: #6B7280;
+  color: #6b7280;
 }
 
 form {
@@ -781,13 +791,14 @@ form {
   position: relative;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 10px;
   border: 2px solid #000;
   outline: 0;
   border-radius: 1rem;
-  color: #6B7280;
+  color: #6b7280;
   background: transparent;
   font-size: 15px;
   -webkit-border-radius: 1rem;
@@ -802,7 +813,7 @@ label {
   left: 0;
   top: 0;
   padding: 10px;
-  color: #6B7280;
+  color: #6b7280;
   cursor: text;
   transition: 0.2s;
 }
@@ -810,7 +821,7 @@ label {
 .submit-btn {
   width: 100%;
   padding: 10px 0;
-  color: #6B7280;
+  color: #6b7280;
   background: transparent;
   border: 2px solid #000;
   outline: 0;
@@ -822,17 +833,21 @@ label {
   -o-border-radius: 1rem;
 }
 
-input:focus ~ label, input:valid ~ label {
+input:focus ~ label,
+input:valid ~ label {
   top: -35px;
   font-size: 14px;
 }
 
-textarea:focus ~ label, textarea:valid ~ label {
+textarea:focus ~ label,
+textarea:valid ~ label {
   top: -35px;
   font-size: 14px;
 }
 
-input:hover, textarea:hover, .submit-btn:hover {
+input:hover,
+textarea:hover,
+.submit-btn:hover {
   background-color: #dddad3;
   color: #000;
 }
@@ -849,7 +864,9 @@ input:hover, textarea:hover, .submit-btn:hover {
   }
 }
 
-.contacts-title, .contacts-subtitle, form {
+.contacts-title,
+.contacts-subtitle,
+form {
   opacity: 0;
   animation: fadeSlideUp 0.8s ease-out forwards;
 }
@@ -864,7 +881,7 @@ form {
 
 /* media queries */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   #hero-profile {
     height: 83vh;
     margin-bottom: 0;
@@ -874,7 +891,7 @@ form {
   }
 }
 
-@media screen and (max-width: 768px ) {
+@media screen and (max-width: 768px) {
   .desktop-nav {
     display: none;
   }
@@ -886,9 +903,9 @@ form {
     position: sticky;
     top: 0;
     right: 0;
-    width: 100%;  
+    width: 100%;
     height: 3.5rem;
-    background-color: #E0E7F3;
+    background-color: #e0e7f3;
     z-index: 4;
     padding: 10px 20px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -922,7 +939,7 @@ form {
     position: absolute;
     top: 120%;
     right: 0;
-    background-color: #E0E7F3;
+    background-color: #e0e7f3;
     border-radius: 8px;
     overflow: hidden;
     max-height: 0;
@@ -941,7 +958,7 @@ form {
   .menu-links a {
     display: block;
     padding: 10px 20px;
-    color: #2563EB;
+    color: #2563eb;
     font-size: 1.2rem;
     text-decoration: none;
   }
@@ -952,12 +969,12 @@ form {
 }
 
 @media screen and (max-width: 1024px) {
-  .desktop-nav, 
+  .desktop-nav,
   .desktop-nav-cv {
     display: none !important;
   }
 
-  .hamburger-nav, 
+  .hamburger-nav,
   .hamburger-nav-cv {
     display: flex !important;
     justify-content: flex-end;
@@ -967,9 +984,9 @@ form {
     right: 0;
     height: 3rem;
     width: 100%;
-    background-color: #E0E7F3;
+    background-color: #e0e7f3;
     padding: 1rem 2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
   }
 
@@ -1000,7 +1017,7 @@ form {
     position: absolute;
     top: 120%;
     right: 0;
-    background-color: #E0E7F3;
+    background-color: #e0e7f3;
     border-radius: 10px;
     overflow: hidden;
     max-height: 0;
@@ -1020,60 +1037,62 @@ form {
     display: block;
     padding: 10px 20px;
     font-size: 1.2rem;
-    color: #2563EB;
+    color: #2563eb;
     text-decoration: none;
   }
 
   .menu-links a:hover {
-    background-color: #DBEAFE;
+    background-color: #dbeafe;
   }
 
-  footer, .footer {
+  footer,
+  .footer {
     position: relative;
     bottom: 0;
     width: 100%;
     margin-top: 2rem;
   }
 
-  section, hero, .hero-contacts {
+  section,
+  hero,
+  .hero-contacts {
     height: auto !important;
     min-height: auto !important;
   }
 }
 
 @media screen and (min-width: 1025px) {
-  .hamburger-nav, 
+  .hamburger-nav,
   .hamburger-nav-cv {
     display: none !important;
   }
 
-  .desktop-nav, 
+  .desktop-nav,
   .desktop-nav-cv {
     display: flex !important;
     justify-content: center;
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: #E0E7F3;
+    background-color: #e0e7f3;
     padding: 1rem 3rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
   }
 }
 
-
-
-@media screen and (max-width: 1200px){
-
-  #desktop-nav, #desktop-nav-cv {
-    display: none
+@media screen and (max-width: 1200px) {
+  #desktop-nav,
+  #desktop-nav-cv {
+    display: none;
   }
 
   #hamburger-nav {
     display: flex;
   }
 
-  #profile, .section-container {
+  #profile,
+  .section-container {
     display: block;
   }
   .section-pic-cv-container {
@@ -1084,7 +1103,8 @@ form {
     margin-top: 1rem;
   }
 
-  section, .section-container{
+  section,
+  .section-container {
     height: fit-content;
   }
 
@@ -1092,7 +1112,8 @@ form {
     margin: 0 5%;
   }
 
-  .section-pic-container, .section-pic-cv-container {
+  .section-pic-container,
+  .section-pic-cv-container {
     width: 220px;
     height: 220px;
     margin: 0 auto 2rem;
@@ -1106,12 +1127,13 @@ form {
     padding-bottom: 4rem;
   }
 
-  footer, .footer {
+  footer,
+  .footer {
     margin-top: 3rem;
   }
 }
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
