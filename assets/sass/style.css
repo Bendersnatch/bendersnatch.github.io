@@ -330,7 +330,7 @@ section {
 
 .title-about {
   font-size: 3rem;
-  text-align: left;
+  text-align:center;
   color: #1e3a8a;
 }
 
@@ -447,7 +447,7 @@ article {
 
 .text-container {
   flex: 1 1 300px;
-  text-align: center;
+  text-align:justify;
   margin: 0 auto;
   max-width: 600px;
 }
