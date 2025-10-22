@@ -1,6 +1,6 @@
 # Alex Bazhenov – Portfolio
 
-> Questo repository contiene il sito web portfolio personale di **Alex Bazhenov**.  
+> Questo repository contiene il sito web portfolio personale.  
 > Lo scopo è mostrare i miei progetti, le mie competenze e offrire un punto di contatto professionale.
 
 ---
@@ -34,4 +34,3 @@ L’utente può navigare tra le sezioni “Home / Progetti”, “CV”, “Cont
 - La sezione Contatti è implementata tramite Formspree, un servizio che permette di ricevere messaggi dal modulo di contatto direttamente via email. L’utente può compilare il form e inviare un messaggio che viene recapitato all’indirizzo email associato all’account Formspree.
 - Navigazione fluida tra le pagine  
 - Caricamento rapido (nessuna libreria pesante, niente framework front-end complessi)
-
